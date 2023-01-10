@@ -2,7 +2,7 @@ import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from src.networks import InpaintGenerator, EdgeGenerator, Discriminator, StructureGen, LBPLayer
+from src.networks import InpaintGenerator, EdgeGenerator, Discriminator, StructureGen
 
 from .loss import AdversarialLoss, PerceptualLoss, StyleLoss
 from .utils import get_model_list

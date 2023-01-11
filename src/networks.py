@@ -122,6 +122,8 @@ class InpaintGenerator(BaseNetwork):
 
         self.ca1 = ChannelAttention(256)
         self.sa1 = SpatialAttention()
+        
+        # self.sa2 = sa1.NONLocalBlock2D(in_channels=256, inter_channels=256 // 4)
 
         blocks = []
         for _ in range(residual_blocks):
@@ -184,7 +186,9 @@ class InpaintGenerator(BaseNetwork):
         x = self.encoder3(x)
         x = self.ca1(x) * x
         x = self.sa1(x) * x
+        # x = self.sa2(x) * x
         x = self.middle(x)
+        # x = self.sa2(x) * x
         x = self.ca2(x) * x
         x = self.sa2(x) * x
         x = self.decoder1(x)

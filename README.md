@@ -10,7 +10,7 @@ by Zhan Li, Yanan Zhang, Yingfei Du, Yongqin Zhang, Xiaofeng Wang, Chao Wen, Fan
 Our paper proposes a novel deep learning model STNet to restore the damaged images, which can be considered as a combination of the extension of image decomposition and the inverse process of it.
 
 <div align="center">
-  <img src="figures/framework.png" width="1200" />
+  <img src="figures/framework.png" width="600" />
 </div>
 
 

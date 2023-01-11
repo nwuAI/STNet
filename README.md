@@ -1,6 +1,6 @@
 ## STNet: Structure and Texture-guided Network for image inpainting
 
-by Zhan Li1, Yanan Zhang, Yingfei Du, Yongqin Zhang, Xiaofeng Wang, Chao Wen, Fan Jia, Guohua Geng, Hai Zhang
+by Zhan Li, Yanan Zhang, Yingfei Du, Yongqin Zhang, Xiaofeng Wang, Chao Wen, Fan Jia, Guohua Geng, Hai Zhang
 
 * **SAIL (Statistic Analysis And Intelligent Learning) Lab of NWU**
 
